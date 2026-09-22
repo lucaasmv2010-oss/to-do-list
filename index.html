@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>To-Do List</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <main class="todo">
+
+        <h1>Minhas tarefas</h1>
+
+        <div class="entrada">
+
+            <input
+                type="text"
+                id="novaTarefa"
+                placeholder="Digite uma tarefa"
+            >
+
+            <button id="adicionar">
+                Adicionar
+            </button>
+
+        </div>
+
+        <div class="filtros">
+
+            <button id="todas">
+                Todas
+            </button>
+
+            <button id="pendentes">
+                Pendentes
+            </button>
+
+            <button id="concluidas">
+                Concluídas
+            </button>
+
+        </div>
+
+        <p id="contador">
+            Total: 0 | Pendentes: 0 | Concluídas: 0
+        </p>
+
+        <ul id="listaTarefas"></ul>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
